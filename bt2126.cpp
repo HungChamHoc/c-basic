@@ -18,10 +18,10 @@ int main()
 	int r;
 	printf("\nNhap ban kinh hinh tron =");
 	scanf("%d",&r);
-	int p = 2*3.14*r;
-	int s = 3.14*r*r;
-	printf("\nChu vi hinh tron = %d\n",p);
-	printf("\nDien tich hinh tron = %d\n",s);
+	float p = 2*3.14*r;
+	float s = 3.14*r*r;
+	printf("\nChu vi hinh tron = %f\n",p);
+	printf("\nDien tich hinh tron = %f\n",s);
 	 
 	 //ex3
 	  int N;
